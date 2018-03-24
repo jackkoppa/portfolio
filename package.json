@@ -16,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/jackkoppa/portfolio/issues"
   },
-  "homepage": "https://github.com/jackkoppa/portfolio#readme"
+  "homepage": "https://github.com/jackkoppa/portfolio#readme",
+  "dependencies": {
+    "next": "^5.0.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  }
 }
