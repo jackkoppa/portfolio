@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start -p 443",
+    "start": "cross-env NODE_ENV=production node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -21,7 +21,8 @@
   },
   "homepage": "https://github.com/jackkoppa/portfolio#readme",
   "dependencies": {
-    "next": "^5.0.0",
+    "cross-env": "^5.1.4",
+    "next": "^5.1.0",
     "react": "^16.2.0",
     "react-dom": "^16.2.0"
   }
